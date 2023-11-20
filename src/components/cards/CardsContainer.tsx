@@ -12,7 +12,7 @@ export default function CardsContainer({data}: CardContainerProps) {
                         classAtt="border p-10 rounded-lg shadow-md flex justify-center" 
                         title={value.title ? value.title : ''} 
                         content= {value.body ? value.body : ''}
-                        link= {value.url ? value.url : 'https://jsonplaceholder.typicode.com/posts/2'}
+                        link= {value.url ? value.url : '/'}
                         />
             })
         }
